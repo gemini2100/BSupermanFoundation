@@ -1,0 +1,16 @@
+PODS:
+  - BSupermanFoundation (0.1.0)
+
+DEPENDENCIES:
+  - BSupermanFoundation (from `../`)
+
+EXTERNAL SOURCES:
+  BSupermanFoundation:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BSupermanFoundation: 5b9b8fb948f194ae8f13711064210f830d9ccb2b
+
+PODFILE CHECKSUM: 694c1d1646f299325714b213a757b6abd94a9d75
+
+COCOAPODS: 1.4.0

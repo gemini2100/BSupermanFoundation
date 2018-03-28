@@ -1,0 +1,23 @@
+{
+  "name": "BSupermanFoundation",
+  "version": "0.1.0",
+  "summary": "A Foundation.",
+  "description": "A foundation libray for my project.",
+  "homepage": "https://github.com/gemini2100/BSupermanFoundation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gemini2100@msn.com": "gemini2100@msn.com"
+  },
+  "source": {
+    "git": "https://github.com/gemini2100/BSupermanFoundation.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "BSupermanFoundation/Classes/**/*",
+  "frameworks": "UIKit"
+}
