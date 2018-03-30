@@ -1,6 +1,6 @@
 {
   "name": "BSupermanFoundation",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A Foundation.",
   "description": "A foundation libray for my project.",
   "homepage": "https://github.com/gemini2100/BSupermanFoundation",
@@ -13,11 +13,12 @@
   },
   "source": {
     "git": "https://github.com/gemini2100/BSupermanFoundation.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "11.0"
   },
   "source_files": "BSupermanFoundation/Classes/**/*",
+  "swift_version": "4.0",
   "frameworks": "UIKit"
 }

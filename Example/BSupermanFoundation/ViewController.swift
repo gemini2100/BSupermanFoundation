@@ -18,13 +18,7 @@ class ViewController: UIViewController {
         $0.frame = CGRect(x: 0.0, y: 0.0, width: 200, height: 200)
     }
     
-    let imageview = UIImageView().then {
-        $0.image = UIImage.resizable()
-            .color(UIColor("#ff894200")!)
-            .border(color: .blue)
-            .border(width: 5)
-            .corner(radius: 10)
-            .image
+    let imageview = UIImageView().then {       
         
         $0.frame = CGRect(x: 0.0, y: 0.0, width: 200, height: 200)
     }

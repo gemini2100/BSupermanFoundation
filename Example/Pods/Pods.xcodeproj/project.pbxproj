@@ -7,17 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		156FE1FCD0795B4D3AC9D0CCF82CF866 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		37E536E979E6733300C1F56B4F381304 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1783F71043AA54C24696BEC857F52DF /* String+Extensions.swift */; };
+		1E83E0C4AE75403162512BE7F7CEDE6D /* BSupermanFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EFD67E0EA4A18E415046ADBD4DEBBA /* BSupermanFoundation-dummy.m */; };
+		3A0DB170C788305069F3C762B6FB186A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 		42DDB037ED2957D482BEF7F698C54F05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		71E2F2D9B604EC9C93B51B2D2D8E9C3F /* SwiftyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC98D2345CE268031FD542F27654088 /* SwiftyImage.swift */; };
+		435026629763640343511D735AE75470 /* BSupermanFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBB6A30EDF1B91AAF38022EC20EB3341 /* BSupermanFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4770EB2BA8E2A848D82D1529E37AA21C /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B636CD6DC07C403C3AAA76C757B56E0 /* Then.swift */; };
+		4CC97A726259539F3941D1D55ED4A62F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		78EA16D0AB093913AB5844FFD57205F5 /* Pods-BSupermanFoundation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAD3A3BAC258A623305C240BD38DCFCC /* Pods-BSupermanFoundation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9CE28E58951E0B9811E9AA1F2E240BC /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855947659CA3AC03582C9DB8A5472410 /* Then.swift */; };
-		ACD66040155A4BBBA895EA5C1ADBE6DD /* BSupermanFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72CC796E9D0A379643AB7751A020112C /* BSupermanFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEAB07F8B0D375473CDB5DDAA581B3BE /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1F8C5033F74A3A49C5D2FA83AD28DD /* String+Extensions.swift */; };
 		B27500DE33B3B62D535BCEDBB341FAFA /* Pods-BSupermanFoundation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0686DF945576F4E92541BD2C3991441 /* Pods-BSupermanFoundation_Example-dummy.m */; };
-		CF94DBCAD38DE832ECAD9A2C7F376B25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		D223B32B4F9AEB40C2F681392A6E01C4 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA4753ED65FE184D9A2C3618359236B /* UIColor+Hex.swift */; };
-		E07A0F24FED31C297653ADCDA4CEB2D0 /* BSupermanFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BB2C3D5B14E739DCF1BDA7DF6D3E5F /* BSupermanFoundation-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,49 +23,47 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2AEEFFD8C5ED7F0206BCF6FB8D3B97EA;
+			remoteGlobalIDString = 8FDA93F4E5AE05E8E29EB0B67911FF9B;
 			remoteInfo = BSupermanFoundation;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CC98D2345CE268031FD542F27654088 /* SwiftyImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyImage.swift; path = BSupermanFoundation/Classes/SwiftyImage.swift; sourceTree = "<group>"; };
-		10ED5D63CA30523BFB72DB513BFDE3F6 /* BSupermanFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BSupermanFoundation.modulemap; sourceTree = "<group>"; };
+		03408045CAEE82949E9BF67BA8D9E0B9 /* BSupermanFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BSupermanFoundation.xcconfig; sourceTree = "<group>"; };
 		1F4E207631182BAC2E827B5559B6A0F1 /* BSupermanFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BSupermanFoundation.framework; path = BSupermanFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E708A93F249FBF25C3F9C3905C754FE /* BSupermanFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSupermanFoundation-prefix.pch"; sourceTree = "<group>"; };
+		1F9B9D40B8B4FD274C1F619AC2FBCEDA /* BSupermanFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BSupermanFoundation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2B636CD6DC07C403C3AAA76C757B56E0 /* Then.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Then.swift; path = BSupermanFoundation/Classes/Then.swift; sourceTree = "<group>"; };
 		347F8424D9BB64E396EF0982EEEA287C /* Pods_BSupermanFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BSupermanFoundation_Example.framework; path = "Pods-BSupermanFoundation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38839CB7DFA5CF0D47314D15BADD99D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F6781F389D856901D3CC57AD5AE2131 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		59BA5EE4BA628EABDD22678AEB24EE02 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		72CC796E9D0A379643AB7751A020112C /* BSupermanFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSupermanFoundation-umbrella.h"; sourceTree = "<group>"; };
-		793F434086BF59018D9C010AAD0570AB /* BSupermanFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BSupermanFoundation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		51C89F5FFFBBF80DD3639E32C3FDDDFC /* BSupermanFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSupermanFoundation-prefix.pch"; sourceTree = "<group>"; };
+		7199D712330F8F69C1AAD31C84F26D16 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		7B6B52149E8B6156826C564FCC381E21 /* Pods-BSupermanFoundation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BSupermanFoundation_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7BF9D1DC228C14AC6C3FD34926499290 /* Pods-BSupermanFoundation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BSupermanFoundation_Example.release.xcconfig"; sourceTree = "<group>"; };
-		829EB221E15BE1F1A458C43270EAF688 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		855947659CA3AC03582C9DB8A5472410 /* Then.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Then.swift; path = BSupermanFoundation/Classes/Then.swift; sourceTree = "<group>"; };
+		91EA673B37114D070F594A0DDF8C5C76 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97FD3C716565EFA7F3FE0767901976D2 /* Pods-BSupermanFoundation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BSupermanFoundation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		98E90209F81C93D6819BBE287A46200F /* BSupermanFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BSupermanFoundation.xcconfig; sourceTree = "<group>"; };
 		9A03C21D884C408193D76C43E0F99E04 /* Pods-BSupermanFoundation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BSupermanFoundation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A0686DF945576F4E92541BD2C3991441 /* Pods-BSupermanFoundation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BSupermanFoundation_Example-dummy.m"; sourceTree = "<group>"; };
 		A460885B4CDE58DEA43054AF7AFC79A0 /* Pods-BSupermanFoundation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BSupermanFoundation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A8E1AE67FAE58FDED5093F02A8FFD9F7 /* Pods-BSupermanFoundation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BSupermanFoundation_Example.modulemap"; sourceTree = "<group>"; };
+		B3B91ECF04AD70766F317D03B62D73C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B7BB2C3D5B14E739DCF1BDA7DF6D3E5F /* BSupermanFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BSupermanFoundation-dummy.m"; sourceTree = "<group>"; };
-		C1783F71043AA54C24696BEC857F52DF /* String+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extensions.swift"; path = "BSupermanFoundation/Classes/String+Extensions.swift"; sourceTree = "<group>"; };
+		BBB6A30EDF1B91AAF38022EC20EB3341 /* BSupermanFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSupermanFoundation-umbrella.h"; sourceTree = "<group>"; };
+		C6088B3AE8DCF848F948D0765EF98195 /* BSupermanFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BSupermanFoundation.modulemap; sourceTree = "<group>"; };
+		D4EFD67E0EA4A18E415046ADBD4DEBBA /* BSupermanFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BSupermanFoundation-dummy.m"; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DAD3A3BAC258A623305C240BD38DCFCC /* Pods-BSupermanFoundation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BSupermanFoundation_Example-umbrella.h"; sourceTree = "<group>"; };
-		EBA4753ED65FE184D9A2C3618359236B /* UIColor+Hex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Hex.swift"; path = "BSupermanFoundation/Classes/UIColor+Hex.swift"; sourceTree = "<group>"; };
+		EB1F8C5033F74A3A49C5D2FA83AD28DD /* String+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extensions.swift"; path = "BSupermanFoundation/Classes/String+Extensions.swift"; sourceTree = "<group>"; };
 		F70D5BF7E34719A095079C0976469598 /* Pods-BSupermanFoundation_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BSupermanFoundation_Example-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		54F144929BC66DF3F20F4E5297A4721A /* Frameworks */ = {
+		2A784061182797E423F6431783830F25 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				156FE1FCD0795B4D3AC9D0CCF82CF866 /* Foundation.framework in Frameworks */,
-				CF94DBCAD38DE832ECAD9A2C7F376B25 /* UIKit.framework in Frameworks */,
+				4CC97A726259539F3941D1D55ED4A62F /* Foundation.framework in Frameworks */,
+				3A0DB170C788305069F3C762B6FB186A /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,15 +78,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3B80FFE8464D59FE009FFD2A76FB8689 /* BSupermanFoundation */ = {
+		0D30C2FE520A9572DDBF693F2894A4C3 /* BSupermanFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				C1783F71043AA54C24696BEC857F52DF /* String+Extensions.swift */,
-				0CC98D2345CE268031FD542F27654088 /* SwiftyImage.swift */,
-				855947659CA3AC03582C9DB8A5472410 /* Then.swift */,
-				EBA4753ED65FE184D9A2C3618359236B /* UIColor+Hex.swift */,
-				6B358C264F3AAC52EFA9D5CF1B92F23B /* Pod */,
-				6CFB69E6AB0D656DBCE77319E18E3B9D /* Support Files */,
+				EB1F8C5033F74A3A49C5D2FA83AD28DD /* String+Extensions.swift */,
+				2B636CD6DC07C403C3AAA76C757B56E0 /* Then.swift */,
+				6A26EE79DE98C5E2CEDF27ED04F6E430 /* Pod */,
+				6CE13499CF8AF1AE90B7D2E392B7FCCC /* Support Files */,
 			);
 			name = BSupermanFoundation;
 			path = ../..;
@@ -113,33 +107,25 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		65AB2AF9068962FD2565F1285F56D664 /* Development Pods */ = {
+		6A26EE79DE98C5E2CEDF27ED04F6E430 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3B80FFE8464D59FE009FFD2A76FB8689 /* BSupermanFoundation */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		6B358C264F3AAC52EFA9D5CF1B92F23B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				793F434086BF59018D9C010AAD0570AB /* BSupermanFoundation.podspec */,
-				4F6781F389D856901D3CC57AD5AE2131 /* LICENSE */,
-				59BA5EE4BA628EABDD22678AEB24EE02 /* README.md */,
+				1F9B9D40B8B4FD274C1F619AC2FBCEDA /* BSupermanFoundation.podspec */,
+				7199D712330F8F69C1AAD31C84F26D16 /* LICENSE */,
+				91EA673B37114D070F594A0DDF8C5C76 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		6CFB69E6AB0D656DBCE77319E18E3B9D /* Support Files */ = {
+		6CE13499CF8AF1AE90B7D2E392B7FCCC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				10ED5D63CA30523BFB72DB513BFDE3F6 /* BSupermanFoundation.modulemap */,
-				98E90209F81C93D6819BBE287A46200F /* BSupermanFoundation.xcconfig */,
-				B7BB2C3D5B14E739DCF1BDA7DF6D3E5F /* BSupermanFoundation-dummy.m */,
-				2E708A93F249FBF25C3F9C3905C754FE /* BSupermanFoundation-prefix.pch */,
-				72CC796E9D0A379643AB7751A020112C /* BSupermanFoundation-umbrella.h */,
-				829EB221E15BE1F1A458C43270EAF688 /* Info.plist */,
+				C6088B3AE8DCF848F948D0765EF98195 /* BSupermanFoundation.modulemap */,
+				03408045CAEE82949E9BF67BA8D9E0B9 /* BSupermanFoundation.xcconfig */,
+				D4EFD67E0EA4A18E415046ADBD4DEBBA /* BSupermanFoundation-dummy.m */,
+				51C89F5FFFBBF80DD3639E32C3FDDDFC /* BSupermanFoundation-prefix.pch */,
+				BBB6A30EDF1B91AAF38022EC20EB3341 /* BSupermanFoundation-umbrella.h */,
+				B3B91ECF04AD70766F317D03B62D73C6 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/BSupermanFoundation";
@@ -149,7 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				65AB2AF9068962FD2565F1285F56D664 /* Development Pods */,
+				EEB019AD3CF2B820A49536CDA6E82B24 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				975254054C5CE15F5794B7CD07D632D0 /* Products */,
 				8835CF3196CDDE9988E9685B5AFBA4B1 /* Targets Support Files */,
@@ -191,6 +177,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		EEB019AD3CF2B820A49536CDA6E82B24 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D30C2FE520A9572DDBF693F2894A4C3 /* BSupermanFoundation */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -202,11 +196,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		27AC8EF56E81104F963F85107A8E4307 /* Headers */ = {
+		DB61E45262C35D9CD70AD3BBAE27A69C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACD66040155A4BBBA895EA5C1ADBE6DD /* BSupermanFoundation-umbrella.h in Headers */,
+				435026629763640343511D735AE75470 /* BSupermanFoundation-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,13 +225,13 @@
 			productReference = 347F8424D9BB64E396EF0982EEEA287C /* Pods_BSupermanFoundation_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2AEEFFD8C5ED7F0206BCF6FB8D3B97EA /* BSupermanFoundation */ = {
+		8FDA93F4E5AE05E8E29EB0B67911FF9B /* BSupermanFoundation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84BC8CCC655F6151D631BD9170CD839A /* Build configuration list for PBXNativeTarget "BSupermanFoundation" */;
+			buildConfigurationList = 3DD812458493E9837DC0A30E67EC2F7F /* Build configuration list for PBXNativeTarget "BSupermanFoundation" */;
 			buildPhases = (
-				B0142141AF6A9F6BE6F8C015A15CD911 /* Sources */,
-				54F144929BC66DF3F20F4E5297A4721A /* Frameworks */,
-				27AC8EF56E81104F963F85107A8E4307 /* Headers */,
+				768F2EB1C1F1773E26FE5C406E91943A /* Sources */,
+				2A784061182797E423F6431783830F25 /* Frameworks */,
+				DB61E45262C35D9CD70AD3BBAE27A69C /* Headers */,
 			);
 			buildRules = (
 			);
@@ -269,30 +263,28 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2AEEFFD8C5ED7F0206BCF6FB8D3B97EA /* BSupermanFoundation */,
+				8FDA93F4E5AE05E8E29EB0B67911FF9B /* BSupermanFoundation */,
 				1B34149EE0ECFE044AC7B095AD41DE37 /* Pods-BSupermanFoundation_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		768F2EB1C1F1773E26FE5C406E91943A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E83E0C4AE75403162512BE7F7CEDE6D /* BSupermanFoundation-dummy.m in Sources */,
+				AEAB07F8B0D375473CDB5DDAA581B3BE /* String+Extensions.swift in Sources */,
+				4770EB2BA8E2A848D82D1529E37AA21C /* Then.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A919553F5D7CE2243C81022CF60C865F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B27500DE33B3B62D535BCEDBB341FAFA /* Pods-BSupermanFoundation_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B0142141AF6A9F6BE6F8C015A15CD911 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E07A0F24FED31C297653ADCDA4CEB2D0 /* BSupermanFoundation-dummy.m in Sources */,
-				37E536E979E6733300C1F56B4F381304 /* String+Extensions.swift in Sources */,
-				71E2F2D9B604EC9C93B51B2D2D8E9C3F /* SwiftyImage.swift in Sources */,
-				A9CE28E58951E0B9811E9AA1F2E240BC /* Then.swift in Sources */,
-				D223B32B4F9AEB40C2F681392A6E01C4 /* UIColor+Hex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +294,7 @@
 		0C3DF08EABDEBA5DBD67140F6574D09B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BSupermanFoundation;
-			target = 2AEEFFD8C5ED7F0206BCF6FB8D3B97EA /* BSupermanFoundation */;
+			target = 8FDA93F4E5AE05E8E29EB0B67911FF9B /* BSupermanFoundation */;
 			targetProxy = BD59001D6F50AFD930F0A1330EF2B414 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -371,6 +363,38 @@
 			};
 			name = Debug;
 		};
+		4B87415EF0D136B263E2210DD8C37D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03408045CAEE82949E9BF67BA8D9E0B9 /* BSupermanFoundation.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BSupermanFoundation/BSupermanFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BSupermanFoundation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BSupermanFoundation/BSupermanFoundation.modulemap";
+				PRODUCT_NAME = BSupermanFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		5BC406D1010BD3E3FF3D2D3C2C1F40DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7BF9D1DC228C14AC6C3FD34926499290 /* Pods-BSupermanFoundation_Example.release.xcconfig */;
@@ -399,6 +423,39 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6CBD3C7585ED07A9BF0982F160837E63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03408045CAEE82949E9BF67BA8D9E0B9 /* BSupermanFoundation.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BSupermanFoundation/BSupermanFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BSupermanFoundation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BSupermanFoundation/BSupermanFoundation.modulemap";
+				PRODUCT_NAME = BSupermanFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -499,71 +556,6 @@
 			};
 			name = Release;
 		};
-		A94290084D8707C8EA15806E1BB71F05 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98E90209F81C93D6819BBE287A46200F /* BSupermanFoundation.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BSupermanFoundation/BSupermanFoundation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BSupermanFoundation/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BSupermanFoundation/BSupermanFoundation.modulemap";
-				PRODUCT_NAME = BSupermanFoundation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FE27B7A55461EF68E063B1796EE7253C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98E90209F81C93D6819BBE287A46200F /* BSupermanFoundation.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BSupermanFoundation/BSupermanFoundation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BSupermanFoundation/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BSupermanFoundation/BSupermanFoundation.modulemap";
-				PRODUCT_NAME = BSupermanFoundation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -576,11 +568,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84BC8CCC655F6151D631BD9170CD839A /* Build configuration list for PBXNativeTarget "BSupermanFoundation" */ = {
+		3DD812458493E9837DC0A30E67EC2F7F /* Build configuration list for PBXNativeTarget "BSupermanFoundation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE27B7A55461EF68E063B1796EE7253C /* Debug */,
-				A94290084D8707C8EA15806E1BB71F05 /* Release */,
+				4B87415EF0D136B263E2210DD8C37D22 /* Debug */,
+				6CBD3C7585ED07A9BF0982F160837E63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
