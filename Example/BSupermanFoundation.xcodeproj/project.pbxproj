@@ -16,7 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1FA1F2F36CD7C77B002C3C86 /* Pods-BSupermanFoundation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSupermanFoundation_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BSupermanFoundation_Tests/Pods-BSupermanFoundation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		36C3CCCDADF51957F8126FC8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3AA9CD9D700462382DDBD05D /* Pods_BSupermanFoundation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BSupermanFoundation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		47D63005B4EB8AFEE4EEBBD3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -31,7 +30,6 @@
 		648121FF8245AE05F06EC3C1 /* BSupermanFoundation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BSupermanFoundation.podspec; path = ../BSupermanFoundation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6BE7FAD3A9DC3C38BC23415E /* Pods_BSupermanFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BSupermanFoundation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D97722DFD208EBCE0DFA25F /* Pods-BSupermanFoundation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSupermanFoundation_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BSupermanFoundation_Example/Pods-BSupermanFoundation_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9CD9F7768BF9E5A7874C4BC0 /* Pods-BSupermanFoundation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSupermanFoundation_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BSupermanFoundation_Tests/Pods-BSupermanFoundation_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +49,6 @@
 			children = (
 				60BEA17F84C42C5F9B56E1C2 /* Pods-BSupermanFoundation_Example.debug.xcconfig */,
 				8D97722DFD208EBCE0DFA25F /* Pods-BSupermanFoundation_Example.release.xcconfig */,
-				1FA1F2F36CD7C77B002C3C86 /* Pods-BSupermanFoundation_Tests.debug.xcconfig */,
-				9CD9F7768BF9E5A7874C4BC0 /* Pods-BSupermanFoundation_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
