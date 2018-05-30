@@ -28,11 +28,39 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         self.view.addSubview(self.titleLabel)
     }
+    
+    func ExampleTime(){
+        
+        //Basics
+        let tenMinutes = 10.minutes
+        
+        //Operations
+        let interval = 10.minutes + 15.seconds - 3.minutes + 2.hours // Interval<Minute>
+        let doubled = interval * 2
+        let seconds = 10.seconds + 3.minutes // Interval<Second>
+        
+        //You can also use these operations on Date:
+        let oneHourAfter = Date() + 1.hours
+        
+        //Conversions
+        let twoMinutesInSeconds = 2.minutes.inSeconds // Interval<Second>
+        //convert intervals to Foundation's TimeInterval
+        let timeInterval = 5.minutes.timeInterval
+        let fiveSecondsInHours = 5.seconds.converted(to: Hour.self) // Interval<Hour>
+        // or
+        let fiveSecondsInHours2: Interval<Hour> = 5.seconds.converted()
+    
+        //Comparison you can compare different time units as well
+        50.minutes < 1.hours
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        //GCD integration:
+        //DispatchQueue.main.async(after: fiveSecondsInHours2) {
+                // do stuff
+        //}
+    
+    
     }
+ 
 
 }
 

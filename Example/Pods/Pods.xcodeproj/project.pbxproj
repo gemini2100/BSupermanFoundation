@@ -12,6 +12,7 @@
 		42DDB037ED2957D482BEF7F698C54F05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		435026629763640343511D735AE75470 /* BSupermanFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBB6A30EDF1B91AAF38022EC20EB3341 /* BSupermanFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4770EB2BA8E2A848D82D1529E37AA21C /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B636CD6DC07C403C3AAA76C757B56E0 /* Then.swift */; };
+		47C602BB208ED1A7000F329C /* Time+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C602BA208ED1A7000F329C /* Time+Foundation.swift */; };
 		4CC97A726259539F3941D1D55ED4A62F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		78EA16D0AB093913AB5844FFD57205F5 /* Pods-BSupermanFoundation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAD3A3BAC258A623305C240BD38DCFCC /* Pods-BSupermanFoundation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEAB07F8B0D375473CDB5DDAA581B3BE /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1F8C5033F74A3A49C5D2FA83AD28DD /* String+Extensions.swift */; };
@@ -30,17 +31,18 @@
 
 /* Begin PBXFileReference section */
 		03408045CAEE82949E9BF67BA8D9E0B9 /* BSupermanFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BSupermanFoundation.xcconfig; sourceTree = "<group>"; };
-		1F4E207631182BAC2E827B5559B6A0F1 /* BSupermanFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BSupermanFoundation.framework; path = BSupermanFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F9B9D40B8B4FD274C1F619AC2FBCEDA /* BSupermanFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BSupermanFoundation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1F4E207631182BAC2E827B5559B6A0F1 /* BSupermanFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BSupermanFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9B9D40B8B4FD274C1F619AC2FBCEDA /* BSupermanFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = BSupermanFoundation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2B636CD6DC07C403C3AAA76C757B56E0 /* Then.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Then.swift; path = BSupermanFoundation/Classes/Then.swift; sourceTree = "<group>"; };
-		347F8424D9BB64E396EF0982EEEA287C /* Pods_BSupermanFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BSupermanFoundation_Example.framework; path = "Pods-BSupermanFoundation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		347F8424D9BB64E396EF0982EEEA287C /* Pods_BSupermanFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BSupermanFoundation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38839CB7DFA5CF0D47314D15BADD99D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47C602BA208ED1A7000F329C /* Time+Foundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Time+Foundation.swift"; path = "BSupermanFoundation/Classes/Time+Foundation.swift"; sourceTree = "<group>"; };
 		51C89F5FFFBBF80DD3639E32C3FDDDFC /* BSupermanFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSupermanFoundation-prefix.pch"; sourceTree = "<group>"; };
-		7199D712330F8F69C1AAD31C84F26D16 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7199D712330F8F69C1AAD31C84F26D16 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7B6B52149E8B6156826C564FCC381E21 /* Pods-BSupermanFoundation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BSupermanFoundation_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7BF9D1DC228C14AC6C3FD34926499290 /* Pods-BSupermanFoundation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BSupermanFoundation_Example.release.xcconfig"; sourceTree = "<group>"; };
-		91EA673B37114D070F594A0DDF8C5C76 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		91EA673B37114D070F594A0DDF8C5C76 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97FD3C716565EFA7F3FE0767901976D2 /* Pods-BSupermanFoundation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BSupermanFoundation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9A03C21D884C408193D76C43E0F99E04 /* Pods-BSupermanFoundation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BSupermanFoundation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A0686DF945576F4E92541BD2C3991441 /* Pods-BSupermanFoundation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BSupermanFoundation_Example-dummy.m"; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			children = (
 				EB1F8C5033F74A3A49C5D2FA83AD28DD /* String+Extensions.swift */,
 				2B636CD6DC07C403C3AAA76C757B56E0 /* Then.swift */,
+				47C602BA208ED1A7000F329C /* Time+Foundation.swift */,
 				6A26EE79DE98C5E2CEDF27ED04F6E430 /* Pod */,
 				6CE13499CF8AF1AE90B7D2E392B7FCCC /* Support Files */,
 			);
@@ -275,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E83E0C4AE75403162512BE7F7CEDE6D /* BSupermanFoundation-dummy.m in Sources */,
+				47C602BB208ED1A7000F329C /* Time+Foundation.swift in Sources */,
 				AEAB07F8B0D375473CDB5DDAA581B3BE /* String+Extensions.swift in Sources */,
 				4770EB2BA8E2A848D82D1529E37AA21C /* Then.swift in Sources */,
 			);
